@@ -17,9 +17,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  /* margin: 0; */
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 48px;
 }
 
 .header {
@@ -53,11 +54,20 @@ a {
 }
 
 .hero {
-  flex-direction: row;
-  justify-content: space-between;
+  /* flex-direction: row;
+  justify-content: center;
+  align-items: center; */
   background-color: #fecbd9;
   padding-bottom: 60px;
-  margin: auto;
+  /* margin: auto; */
+  gap: 30px;
+  flex: 1;
+}
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
 }
 
@@ -67,32 +77,65 @@ a {
   width: 400px;
 }
 
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
 .hero-right {
   display: flex;
   height: 350px;
-  width: 3500px;
-  margin-left: auto;
+  width: 350px;
+  /* margin-left: auto; */
   flex: 1;
+}
+
+.hero-pic {
+  height: 350px;
+  width: 525px;
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  width: 85px;
 }
 
 .second {
   flex-direction: column;
+  flex: 1;
 }
 
 .second-bottom {
   display: flex;
+  justify-content: center;
   flex-direction: row;
+  gap: 52px;
 }
 
 .photo-map {
+  max-width: 200px;
 }
 .photo {
   height: 175px;
   width: 175px;
   border-radius: 25px;
+}
+
+.third {
+  background-color: #aa4dfd;
+  flex: 1;
+  display: flex;
+  padding: 150px;
+  flex-direction: column;
+}
+
+.third-text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lower-third-text {
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: auto;
 }
