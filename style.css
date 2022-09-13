@@ -20,7 +20,7 @@ body {
   /* margin: 0; */
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 48px;
+  padding-bottom: 60px;
 }
 
 .header {
@@ -79,9 +79,18 @@ a {
 }
 
 h1 {
-  font-size: 40px;
-  font-weight: 900;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  padding: 0;
+  margin-bottom: 0;
 }
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #5e7096;
+}
+
 .hero-right {
   display: flex;
   height: 350px;
@@ -105,7 +114,14 @@ button {
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
-  padding: 50px;
+  /* padding: 50px; */
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding-top: 20px;
 }
 
 .second-bottom {
@@ -129,8 +145,11 @@ button {
   background-color: #aa4dfd;
   flex: 1;
   display: flex;
-  padding: 100px;
-  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* padding: 100px; */
+  /* height: 200px; */
+  /* flex-direction: column; */
 }
 
 .third-container {
@@ -138,18 +157,64 @@ button {
   flex-direction: column;
   place-content: center center;
   max-width: 55%;
+  gap: 0;
 }
 
 .third-text {
-  flex-wrap: wrap;
-  max-width: 50%;
+  /* flex-wrap: wrap; */
+  /* max-width: 50%; */
+  font-size: 36px;
+  font-weight: light;
+  color: #1f2937;
+  padding: 0;
 }
 
 .lower-third-text {
   align-self: flex-end;
+  padding-top: 0;
+}
+
+.fourth {
+  padding: 92px 0 92px 0;
 }
 
 .fourth-child {
+  display: flex;
+  flex-direction: row;
+  place-content: center center;
+  background-color: #5322b1;
+  margin: auto;
+  /* padding: 100px; */
+  height: 150px;
+  width: 60%;
+  gap: 220px;
+}
+
+.left-fourth-child {
+  /* display: flex;
+  flex-direction: column;
+  place-content: center center;
+  row-gap: 0px; */
+}
+
+.bigger {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+.smaller {
+  color: white;
+  font-size: 18px;
+  padding-top: 0%;
+}
+
+.sign-up {
+  /* margin-left: auto;
+  margin-right: 10%; */
+  height: fit-content;
+  align-self: center;
 }
 
 .footer {
