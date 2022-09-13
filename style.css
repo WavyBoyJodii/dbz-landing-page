@@ -46,11 +46,12 @@ body {
 ul {
   display: flex;
   list-style: none;
-  gap: 10px;
+  gap: 20px;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .hero {
@@ -102,7 +103,9 @@ button {
 
 .second {
   flex-direction: column;
+  justify-content: space-between;
   flex: 1;
+  padding: 50px;
 }
 
 .second-bottom {
@@ -110,6 +113,7 @@ button {
   justify-content: center;
   flex-direction: row;
   gap: 52px;
+  margin-top: 20px;
 }
 
 .photo-map {
@@ -125,17 +129,39 @@ button {
   background-color: #aa4dfd;
   flex: 1;
   display: flex;
-  padding: 150px;
+  padding: 100px;
   flex-direction: column;
 }
 
-.third-text {
+.third-container {
   display: flex;
+  flex-direction: column;
+  place-content: center center;
+  max-width: 55%;
+}
+
+.third-text {
   flex-wrap: wrap;
+  max-width: 50%;
 }
 
 .lower-third-text {
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-left: auto;
+  align-self: flex-end;
+}
+
+.fourth-child {
+}
+
+.footer {
+  background-color: #fecbd9;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.footer-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
